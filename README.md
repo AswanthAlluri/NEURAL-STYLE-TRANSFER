@@ -18,3 +18,5 @@ This Python script implements Neural Style Transfer using PyTorch and a pre-trai
 A Normalization class ensures that input images are normalized according to the VGG network’s training parameters. The function get_style_model_and_losses() constructs a new model by copying the layers of VGG-19 and inserting content and style loss layers at appropriate points. The core function run_style_transfer() performs optimization on the input image, gradually updating it to minimize a combined loss of content and style, controlled by weighting factors. Finally, the script visualizes and saves the output image. The main block loads two images (a content and a style image), ensures they match in size, and then performs style transfer, outputting a stylized version of the content image. Note: there are a few typos in the code, such as using init instead of _init_ in class definitions and name instead of _name_, which need correction for the script to run properly.
 
 OUTPUT:
+
+![Image](https://github.com/user-attachments/assets/9080acf5-2437-43e4-9e12-6acf33eea52b)
